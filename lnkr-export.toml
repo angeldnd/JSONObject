@@ -3,8 +3,8 @@ ext-editor-root = "Assets/Standard Assets/Editor/_ExtEditor"
 
 [ext-jsonobject]
 [[ext-jsonobject.folders]]
-from = "JSONObject/Scripts"
+from = "Scripts"
 to = "${ext-root}/_JSONObject"
 [[ext-jsonobject.folders]]
-from = "JSONObject/Editor"
+from = "Editor"
 to = "${ext-editor-root}/_JSONObjectEditor"
