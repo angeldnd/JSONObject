@@ -1,10 +1,16 @@
 ext-root = "Assets/Standard Assets/_Ext"
 ext-editor-root = "Assets/Standard Assets/Editor/_ExtEditor"
+ext-version = "Latest"
 
 [ext-jsonobject]
-requires = [
-    "ext-jksonobject-src",
-]
+[[ext-jsonobject.files]]
+from = "Releases/${ext-version}"
+to = "${ext-root}"
+include = "JSONObject.*"
+[[ext-jsonobject.files]]
+from = "Releases/${ext-version}"
+to = "${ext-editor-root}"
+include = "JSONObjectEditor.*"
 
 [ext-jsonobject-src]
 [[ext-jsonobject-src.folders]]

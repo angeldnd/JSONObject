@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONObject", "JSONObject.csproj", "{4BA5CFFA-4DA5-4BA1-A0EE-D56B8415F2E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONObjectEditor", "JSONObjectEditor.csproj", "{DF5DA5A0-9F44-4006-AC40-A9CD8A5304D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BA5CFFA-4DA5-4BA1-A0EE-D56B8415F2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA5CFFA-4DA5-4BA1-A0EE-D56B8415F2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA5CFFA-4DA5-4BA1-A0EE-D56B8415F2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA5CFFA-4DA5-4BA1-A0EE-D56B8415F2E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5DA5A0-9F44-4006-AC40-A9CD8A5304D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5DA5A0-9F44-4006-AC40-A9CD8A5304D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5DA5A0-9F44-4006-AC40-A9CD8A5304D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5DA5A0-9F44-4006-AC40-A9CD8A5304D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = JSONObject.csproj
+	EndGlobalSection
+EndGlobal
