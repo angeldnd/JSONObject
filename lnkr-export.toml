@@ -2,9 +2,15 @@ ext-root = "Assets/Standard Assets/_Ext"
 ext-editor-root = "Assets/Standard Assets/Editor/_ExtEditor"
 
 [ext-jsonobject]
-[[ext-jsonobject.folders]]
+requires = [
+    "ext-jksonobject-src",
+]
+
+[ext-jsonobject-src]
+[[ext-jsonobject-src.folders]]
 from = "Scripts"
-to = "${ext-root}/_JSONObject"
-[[ext-jsonobject.folders]]
+to = "${ext-root}/_jsonobject-src"
+[[ext-jsonobject-src.folders]]
 from = "Editor"
 to = "${ext-editor-root}/_JSONObjectEditor"
+
