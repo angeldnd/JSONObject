@@ -9,7 +9,7 @@ requires = [
 [ext-jsonobject-src]
 [[ext-jsonobject-src.folders]]
 from = "Scripts"
-to = "${ext-root}/_jsonobject-src"
+to = "${ext-root}/_JSONObject"
 [[ext-jsonobject-src.folders]]
 from = "Editor"
 to = "${ext-editor-root}/_JSONObjectEditor"
